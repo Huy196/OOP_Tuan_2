@@ -22,10 +22,8 @@ public class Xoa {
             System.out.println("Không có giá trị trong phần tử");
         }
 
-        //mảng phụ có độ dài nhỏ hơn 1
         int[] new_array = new int[array.length -1];
 
-        //xóa 1 phần tử khỏi mảng
         for (int j = 0, i = 0 ; j < array.length; j++,i++){
            if (array[j]==number){
                i--;
